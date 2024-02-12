@@ -1,0 +1,158 @@
+#page {
+    font-family: "Source Serif 4", serif;
+    color: black;
+}
+
+#header {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+#content {
+    padding-top: 2em;
+    text-align: center;
+    max-width: 1920px;
+    margin: auto;
+    /* border: 1px solid blue; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    max-width: 768px;
+    text-align: justify;
+}
+
+#logo img {
+    max-width: 40em;
+    max-height: 40em;
+}
+
+#logosmall img {
+    max-width: 10em;
+    max-height: 10em;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    text-align: center;
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+    color: gray;
+    font-size: 0.9em;
+}
+
+#index {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding-right: 0.5em;
+}
+
+.menu_item {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.menu_item:first-of-type {
+    font-size: 1.4em;
+    color: black !important;
+    background-color: white !important;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: chocolate;
+}
+
+.selected {
+    color: white;
+    background-color: black;
+}
+
+.selected:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 800px;
+}
+
+.sidenav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    max-height: 300px;
+}
+
+.thumbnail img {
+    max-height: 230px;
+    max-width: 230px;
+    border: 1px solid lightgrey;
+}
+
+.canvas img {
+    max-height: 760px;
+    max-width: 760px;
+    border: 1px solid lightgrey;
+}
+
+.sidenav img {
+    max-width: 40px;
+}
+
+.thumbnail img:hover {
+    max-height: 240px;
+    max-width: 240px;
+    border: 1px solid black;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.pic {
+    width: 30%;
+}
+
+.pic-right {
+    float: right;
+    margin-left: 30px;
+}
+
+
+
