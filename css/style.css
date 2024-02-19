@@ -24,13 +24,23 @@
 }
 
 .block {
-    max-width: 768px;
+    /* max-width: 768px; */
+    width: min(768px, 100vh);
     text-align: justify;
 }
 
 #logo img {
     max-width: 40em;
     max-height: 40em;
+}
+
+#construction {
+    text-align: center;
+}
+
+#construction img {
+    max-width: 30em;
+    max-height: 30em;
 }
 
 #logosmall img {
@@ -146,8 +156,24 @@ a:hover {
     margin-right: 30px;
 }
 
-.pic {
+.pic-small {
     width: 30%;
+}
+
+.pic-medium {
+    width: 50%;
+}
+
+.cent-wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.pic-full {
+    max-width: 760px;
+    max-height: 760px;
+    margin: auto
+
 }
 
 .pic-right {
@@ -155,5 +181,86 @@ a:hover {
     margin-left: 30px;
 }
 
+.pic-left {
+    float: left;
+    margin-right: 30px;
+}
 
+.prev_link {
+    width: 30%;
+    text-align: left;
+    float: left;
+}
 
+.next_link {
+    width: 30%;
+    text-align: right;
+    float: right;
+}
+
+.prev_link img {
+    width: 40px;
+    float: left;
+}
+
+.next_link img {
+    width: 40px;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2em;
+    /* padding-left: 20%;
+    padding-right: 20%; */
+}
+
+.blog_prev_next {
+    display: block;
+    width: 100%;
+}
+
+.prev_link div {
+    display: block;
+    float: left;
+}
+
+.next_link div {
+    display: block;
+    float: right;
+}
+
+.ptitle {
+    width: calc(100% - 50px);
+}
+
+.intro {
+    font-style: italic;
+}
+
+.post_main img, .post_prev img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.post_main a:last-of-type, .post_prev a:last-of-type {
+    display: block;
+    width: 100%;
+    text-align: right;
+    text-decoration: dotted;
+}
+
+.ilist * {
+    line-height: 0.5em;
+}
+
+.ilist h4 {
+    margin-left: 3%
+}
+
+.ilist p {
+    margin-left: 6%
+}
