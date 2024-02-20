@@ -30,8 +30,8 @@
 }
 
 #logo img {
-    max-width: 40em;
-    max-height: 40em;
+    width: min(40em, 90vw);
+    /* max-height: 40em; */
 }
 
 #construction {
